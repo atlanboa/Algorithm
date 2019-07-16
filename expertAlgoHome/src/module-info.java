@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author atlan
+ *
+ */
+module test {
+}
