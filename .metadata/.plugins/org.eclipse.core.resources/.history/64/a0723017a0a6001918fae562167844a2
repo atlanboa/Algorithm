@@ -1,0 +1,13 @@
+package expertAlgo;
+
+import java.io.InputStream;
+
+public class Addallodds {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		InputStream in = System.in;
+		
+	}
+
+}

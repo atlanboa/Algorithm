@@ -1,0 +1,33 @@
+package expertAlgo;
+
+public class Solutions2 {
+//	static int[] data = new int[100];
+	static int[] data = {7, 4, 2, 0, 0, 6, 0, 7, 0};
+	static int row = 8;
+	static int col = 9;
+	static int[][] arr = new int[row][col];
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		buildData();
+		for(int i=0; i<row; i++) {
+			for(int j=0; j<col; j++) {
+				System.out.print(arr[i][j]+ " ");
+			}
+			System.out.println();
+		}
+
+	}
+	
+	
+	public static void buildData() {
+		for(int i = 0; i<col; i++) {
+			int rep = (row-data[i]+1);
+			for(int j = row-1; j>rep; j--) {
+				
+				arr[j][i] = 1;
+				
+			}
+		}
+	}
+
+}
