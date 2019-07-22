@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author atlan
- *
- */
-module test {
-}
