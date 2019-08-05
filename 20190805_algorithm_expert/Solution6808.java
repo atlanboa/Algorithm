@@ -16,7 +16,7 @@ public class Solution6808 {
 			boolean[] nums = new boolean[18];
 			cntWin = 0;
 			cntLose = 0;
-			visited = new boolean[9];
+			visited = new boolean[9] ;
 			for (int i = 0; i < cardA.length; i++) {
 				cardA[i] = sc.nextInt();
 				nums[cardA[i]-1] = true;
